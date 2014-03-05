@@ -302,9 +302,10 @@ It is tempting to place more epistemic weight to psychological effects evidenced
 The first part is partly correct, neural activity was observed in UT, but also in CT. The second part is incorrect:   
  * The deliberation without attention effect concerns an advantage in decision making and this was not observed.    
  * The fact that activity was observed reveals nothing about the processes that were going on, moreover, the CT condition does not exclude that UT is taking place as well.   
- * There was no association between neural activation and performance.   
+ * There was no association between neural activation and performance.
+ * If anything, the full interpretation concerns an interaction between Mode of Thought and Neural reactivation networks to predict decision performance. This interaction was never tested.
      
-*The correct interpretation of the results of the study is*: Within an individual, there are different clusters of jointly active (=connected?) voxels, whose level of activity are represented by a t-value resulting from a test of a contrast composed of a set of relational constraints on the BOLD signal measured in different experimental conditions. It was thus shown that combining brain activity from experimental conditions that differ both in task, cognitive load and visual complexity into a statistical hypotheses, will reveal that different clusters of voxels are active.   
+*The correct interpretation of the results of the study is*: Within an individual, there are different clusters of jointly active (=connected?) voxels, whose level of activity are represented by a t-value resulting from a test of a contrast composed of a set of relational constraints on the BOLD signal measured in different experimental conditions. It was thus shown that combining brain activity from experimental conditions that differ both in task, cognitive load and visual complexity into statistical hypotheses, will reveal that different clusters of voxels are active.   
    
 ****
 <a name="A3"></a>3. Learn From Reproducible Open Data
