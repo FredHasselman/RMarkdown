@@ -219,27 +219,19 @@ The claim is that incubation effects, the unreflective emergence of meaning that
     
 This paradigm was implemented as a within-subjects fMRI study in which participants went through all 3 conditions rating each one of three Cars, Apartments, Backpacks. The accuracy of the decision process was defined as the difference between the rating for the best item and the worst item. Of course, for the fMRI data to make any sense, it is important that the behavioural effects are replicated. From the article:
       
-> Paired t-tests indicated that UT produced better decisions compared with the ID [t(26)=2.15, P=0.04] and CT [t(26)=2.10, P=0.04]    
-> conditions [the overall one-way ANOVA was marginally significant, F(2,52)=2.48, P=0.09].   
-> [...]   
-> In this study, we did not find that a 2-min period of CT produced better decision making compared with the ID condition   
-> [paired samples t(26)=0.20, P=0.84]   
+> Paired t-tests indicated that UT produced better decisions compared with the ID [t(26)=2.15, P=0.04] and CT [t(26)=2.10, P=0.04] conditions [the overall one-way ANOVA was marginally significant, F(2,52)=2.48, P=0.09].    
+[...]   
+> In this study, we did not find that a 2-min period of CT produced better decision making compared with the ID condition  [paired samples t(26)=0.20, P=0.84]   
     
 Note that a one-way ANOVA is not the correct analysis for repeated measures data, oddly enough the df of the F-test, F(2,52) do not correspond to a one-way ANOVA at all. That would have been F(2,24) and for a repeated measures ANOVA F(2,50). In any case, df and p-value were apparently 'close enough' to warrant three post-hoc paired samples t-tests. Indeed, use of paired sample tests is correct here, but a correction for multiple comparisons should be used and at $latex \alpha = 0.017$ none of these post-hoc tests is significant. This is in accordance with the F-test for the main effect.   
   
 In addition to the behavioural data, the authors report tests that show neural reactivation in several areas of the brain predicts decision performance (difference between judgements of the best and the worst item). The association between neural reactivation and performance was not tested in one model even though the contrasts are just linear combinations of the within-subject design factor and neural activity and rating differences are measured from one and the same random outcome, the randomly selected participant.   
    
-> We observed that neural reactivation occurring in right dorsolateral PFC [$latex \beta$=0.39, t(26)=2.13, P=0.04]    
-> and left intermediate visual cortex [$latex \beta$=0.40, t(26)=2.20, P=0.04] predicted subsequent decision-making performance,    
-> such that more neural reactivation in these regions was associated with greater discrimination between the best    
-> and worst items on the decision-making task.   
+> We observed that neural reactivation occurring in right dorsolateral PFC [$latex \beta$=0.39, t(26)=2.13, P=0.04] and left intermediate visual cortex [$latex \beta$=0.40, t(26)=2.20, P=0.04] predicted subsequent decision-making performance, such that more neural reactivation in these regions was associated with greater discrimination between the best and worst items on the decision-making task.   
 > [...]    
-> Although we observed clusters of neural reactivation during CT (Figure 5; Table 4), none of these clusters significantly predicted decision    
-> -making performance. Specifically, CT reactivation clusters observed in right cerebellum [$latex \beta$=0.27, t(26)=1.39, P=0.18],     
-> left supplementary motor area [$latex \beta$=0.21, t(26)=1.07, P=0.29], right ventrolateral PFC [$latex \beta$=0.18, t(26)=0.90, P=0.38] and   
-> right intraparietal lobule [$latex \beta$=0.13, t(26)=0.67, P=0.51] did not predict decision performance after CT.    
+> Although we observed clusters of neural reactivation during CT (Figure 5; Table 4), none of these clusters significantly predicted decision-making performance. Specifically, CT reactivation clusters observed in right cerebellum [$latex \beta$=0.27, t(26)=1.39, P=0.18], left supplementary motor area [$latex \beta$=0.21, t(26)=1.07, P=0.29], right ventrolateral PFC [$latex \beta$=0.18, t(26)=0.90, P=0.38] and right intraparietal lobule [$latex \beta$=0.13, t(26)=0.67, P=0.51] did not predict decision performance after CT.    
     
-**Testing galore!**   
+**T-tests galore!**   
 Again, one should accommodate in some way for multiple hypothesis testing and assuming just 2 tests were conducted to evaluate the benefits of UT mode of thought at $latex \alpha = 0.025$, we might as well be looking at [a dead salmon](http://prefrontal.org/files/posters/Bennett-Salmon-2009.pdf), or at least a red herring.    
 Granted, the neural activity measure used in these tests is itself the result of multiple comparison corrected analyses. This measure is the output from a conjunction analysis in which activity during several different conditions is examined conditional on a specific contrast or hypothesis (*UT*: (UT n-back task > independent n-back task) AND (encoding > fixation); *CT*: (CT fixation > fixation) AND (encoding > fixation)). The purpose is to identify clusters of voxels whose activity is connected and associated to the UT and CT modes of thought as specified in the contrast. That is, assuming brain physiology can be neatly decomposed into the architecture of cognitive components and processes posited to exist by these authors, but that is another story.   
     
@@ -305,8 +297,7 @@ text(-2.2, (nrow(PTcomp) + 1.5), "Dependent samples t-test")
 **Neural correlates of... barely observable behavioural phenomena?**    
 It is tempting to place more epistemic weight to psychological effects evidenced using expensive measurement equipment, especially if those measurements concern outcomes of observables at the level where biology meets (quantum) physics. In this case, it is especially important not to reverse the chain of evidence: There is no difference between conditions in the behavioural measures which led to doing the experiment in an fMRI scanner! The data should not be presented as a confirmation of the behavioural effect:   
      
-> Using BOLD contrast fMRI, we observed neural activity during an UT period, which challenges existing accounts that have claimed that    
-> deliberation without attention (UT) does not occur during periods of distraction (Acker, 2008).   
+> Using BOLD contrast fMRI, we observed neural activity during an UT period, which challenges existing accounts that have claimed that deliberation without attention (UT) does not occur during periods of distraction (Acker, 2008).   
    
 The first part is partly correct, neural activity was observed in UT, but also in CT. The second part is incorrect:   
  * The deliberation without attention effect concerns an advantage in decision making and this was not observed.    
