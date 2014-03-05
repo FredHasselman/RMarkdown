@@ -40,7 +40,7 @@ Many studies in the social sciences compare variables across the levels of a des
    
 Let's review some properties of discrete probability distributions: A distribution function that assigns a probability to the value taken on by a random variable due to the occurrence of a discrete random event is called a *Probability Mass Function*. They come in several flavours, the [binomial distribution function](http://en.wikipedia.org/wiki/Binomial_distribution) assigns probabilities to events drawn from a finite population *with* replacement. The [hypergeometric distribution function](http://en.wikipedia.org/wiki/Hypergeometric_distribution) assigns probabilities to events drawn *without* replacing them, and the [poisson distribution](http://en.wikipedia.org/wiki/Poisson_distribution)  describes independent event probabilities based on an expected value of 'successes' denoted as $latex \lambda$. 
    
-These probability mass functions and their cumulative distribution function are shown in the figure below, the value with highest mass is 3 in all cases (the code to generate these figures is available in the [.Rmarkdown file](http://) that generated this page).   
+These probability mass functions and their cumulative distribution function are shown in the figure below, the value with highest mass is 3 in all cases (the code to generate these figures is available in the [.Rmarkdown file](https://osf.io/vn5dz/) that generated this page).   
 ![plot of chunk PMF](figure/PMF.png) 
 
  
